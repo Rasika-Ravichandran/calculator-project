@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator</title>
+    <link href="calc1.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="calc">
+    <h1>Calculator</h1>
+    <div class="box">
+        <input id="display" type="text" />
+        <div id="clr">
+        <input onclick="clear1()" class="btn" type="text" value="c"/>
+        </div>
+        <input onclick="display1(1)" class="btn" type="text" value=1 />
+        <input onclick="display1(2)" class="btn" type="text" value=2 />
+        <input onclick="display1(3)" class="btn" type="text" value=3 />
+        <input onclick="display1('+')" class="btn" type="text" value="+"/>
+        <input onclick="display1(4)"class="btn" type="text" value=4 />
+        <input onclick="display1(5)"class="btn" type="text" value=5 />
+        <input onclick="display1(6)" class="btn" type="text" value=6 />
+        <input onclick="display1('-')" class="btn" type="text" value="-"/>
+        <input onclick="display1(7)" class="btn" type="text" value=7 />
+        <input onclick="display1(8)" class="btn" type="text" value=8 />
+        <input onclick="display1(9)" class="btn" type="text" value=9 />
+        <input onclick="display1('*')" class="btn" type="text" value="*"/>
+        <input onclick="display1('.')" class="btn" type="text" value="."/>
+        <input onclick="display1(0)" class="btn" type="text" value=0 />
+        <input onclick="display1('/')" class="btn" type="text" value="/"/>
+        <input onclick="displayresult()" class="btn" type="text" value="="/>
+    </div>
+    </div>
+    <script src="calc3.js"></script>
+</body>
