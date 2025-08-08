@@ -6,7 +6,7 @@ This is a simple calculator built using HTML, CSS, and JavaScript.
 It can perform basic arithmetic operations like addition, subtraction, multiplication, and division.
 
 🚀 Live Demo
-https://rasika-ravichandran.github.io/calculator-project/
+https://rasika-ravichandran.github.io/calculator-project/claculator/
 
 📸 Screenshot:
 ![Calculator Screenshot](https://raw.githubusercontent.com/Rasika-Ravichandran/calculator-project/main/calculator-screenshot.png.png)
